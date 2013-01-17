@@ -1,0 +1,18 @@
+<script type="text/javascript">
+function startCameraApp() {
+  var args = new blackberry.invoke.CameraArguments();
+  args.view = 1; 
+  blackberry.invoke.invoke(blackberry.invoke.APP_CAMERA, args); 
+ };
+function redirect() {
+if (localStorage.getItem('thankyou') === null) {
+window.open('thanks.html', '_top');
+localStorage.setItem('thankyou','set');}
+else {
+startCameraApp();
+blackberry.app.exit();
+};
+};
+window.onload = redirect;
+ </script>
+

@@ -1,0 +1,3 @@
+This is a simple WebWorks App for the BlackBerry PlayBook. The Source Code can be used to make virtually any web page into a BlackBerry App with a SwipeDown Menu.
+
+Source may not be used for commercial use UNLESS the commercial product differs significantly from this sample. Specifically, simply changing the webpage the app displays and the icons used is insufficient under legal ground for this to be charged for (no $1 "Pinterest Launchers" or any crap like that).

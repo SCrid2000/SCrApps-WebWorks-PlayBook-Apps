@@ -1,0 +1,27 @@
+<head>
+
+<style type="text/css">
+body {margin-top: 50px;
+margin-right: 50px;
+margin-bottom: 50px;
+margin-left: 50px;}
+
+</style>
+</head>
+<body>
+<center><h1>Thanks for downloading Video Camera</h1><h2>This screen will only show the first time you launch Video Camera.</h2></center>
+
+<font size="5">I sincerely hope you enjoy this app. In case you did not read the app description, the purpose of this app is to launch the PlayBook Video Camera. For some reason, the PlayBook does not have a stock icon for the Video Camera; in order to access the video Camera, you must launch the regular camera and then switch to video mode. This app makes accessing the Video Camera simpler, by putting a Video Camera icon right on your homecreen. The app has been optimized to take as little space and use as litte resources as possible.<br><br><br>
+
+<center><a style="color: blue;" onclick="launchAppWorld()"><u>You can view all SCrApps Apps on your BlackBerry by clicking on this link.<br>If you like Video Camera, please consider purchasing one of my other apps.</u></a><br><br>
+
+<script>
+function launchAppWorld() { 
+var remote = new blackberry.transport.RemoteFunctionCall("blackberry/invoke/invoke");
+remote.addParam("appType", "appworld://vendor/4735");
+remote.makeAsyncCall();	
+}
+</script>
+<a href="index.html" >[Close this window]</a>
+</font>
+</body>

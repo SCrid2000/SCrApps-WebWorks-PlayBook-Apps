@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets" version="1.0.0.0" id="imdbSample">
+  <name>IMDb</name>
+  <description>A Simple Launcher for the IMDb Website</description>
+  <author href="http://SCrApps.org" rim:copyright="Copyright 2010-2012 SCrApps">SCrApps</author>
+  <icon src="img/icon.png" />
+  <rim:loadingScreen backgroundImage="img/splashscreen.jpg">
+    <rim:transitionEffect type="fadeIn" />
+  </rim:loadingScreen>
+  <access subdomains="true" uri="*"/>
+  <content src="index.html"/>
+  <feature id="blackberry.app.event" required="true" version="1.0.0.0"/>
+</widget>
